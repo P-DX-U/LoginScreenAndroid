@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginScreenAndroid</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="createAccountText">Don\'t have an account yet?</string>
+    <string name="create">Create</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot your password?</string>
+    <string name="blankUser">Blank user name or password less than 8 characters.</string>
+    <string name="correctUserMessage">User > %1$s. Valid password.</string>
+    <string name="restorePassword">A password recovery email has been sent to the user.</string>
+    <string name="accountMessage">Opening the account creation window.</string>
+
+</resources>

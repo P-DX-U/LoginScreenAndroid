@@ -2,8 +2,13 @@
     <string name="app_name">LoginScreenAndroid</string>
     <string name="user">Usuario</string>
     <string name="password">Contraseña</string>
-    <string name="createAccount">¿Aún no tienes cuenta?</string>
+    <string name="createAccountText">¿Aún no tienes cuenta?</string>
     <string name="create">Crear</string>
     <string name="login">Iniciar Sesión</string>
     <string name="forgotPassword">¿Olvidaste tu contraseña?</string>
+    <string name="blankUser">Usuario en blanco o contraseña menor a 8 carácteres.</string>
+    <string name="correctUserMessage">Usuario > %1$s. Contraseña válida.</string>
+    <string name="restorePassword">Se ha enviado un correo de recuperación de contraseña del usuario.</string>
+    <string name="accountMessage">Abriendo ventana de creación de cuenta.</string>
+
 </resources>

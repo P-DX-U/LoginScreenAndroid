@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/filledTextField"
+        android:id="@+id/userTextField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/user"
@@ -44,20 +44,20 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/filledTextField"
+        android:id="@+id/passTextField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="39dp"
         android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
         android:hint="@string/password"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/filledTextField">
+        app:layout_constraintTop_toBottomOf="@+id/userTextField">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -69,7 +69,7 @@
         android:layout_marginTop="39dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/filledTextField" />
+        app:layout_constraintTop_toBottomOf="@+id/passTextField" />
 
     <Button
         android:id="@+id/forgotPasswordButton"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
         android:layout_marginBottom="40dp"
-        android:text="@string/createAccount"
+        android:text="@string/createAccountText"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
